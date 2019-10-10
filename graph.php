@@ -1,6 +1,6 @@
 <?php 
 
-$connect = mysqli_connect("localhost", "root", "", "csv");
+$connect = mysqli_connect("localhost", "root", "", "student");
 $query = "SELECT * FROM test";
 $result = mysqli_query($connect, $query);
 $chart_data = '';
